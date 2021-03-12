@@ -10,7 +10,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        run: npm install is-plain-object
         uses: ULL-ESIT-PL-2021/hello-js-action-GGCristo@v1
         id: hello
         with:
